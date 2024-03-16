@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    background: url(back.jpg) center center fixed;
+    background-size: cover;
+}
+
+.header{
+    color: white;
+    background: linear-gradient(black,purple);
+    font-size: 36px;
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+.maincontainer{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.input{
+    height: 30px;
+    font-size: 1.3em;
+}
+
+
+
+#size{
+    height: 3px;  
+    width: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#slider{
+    margin: 10px auto;
+}
+
+#thicknessinput{
+    position: relative;
+}
+
+.container{
+    height: 400px;
+    width: 1400px;
+    background-color: white;
+    margin: 10px auto;
+    margin-top: 0px;
+    cursor: crosshair;
+    border: 2px solid black;
+}
+
+.butinputs{
+    height: 80px;
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+#paint{
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+.input2{
+    height: 40px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    float: left;
+    border-radius: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttons{
+  cursor: pointer;
+    
+}
+
+
+.input2:hover{
+    background-color: white;
+    color: purple;
+}
+
+.buttons:active{
+    top: 4px;   
+}
+
+.eraseMode{
+    background-color: red;
+    color: white;
+}
+
+
+
